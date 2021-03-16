@@ -1,0 +1,243 @@
+<html>
+
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="boot/css/bootstrap.min.css">
+<link rel="stylesheet" href="font/css/all.min.css">
+
+<title>GeekDev</title>
+<style>
+/*change navbar*/
+.navbar-brand{
+	font-family: arial black;
+	font-size: 2em;
+}
+
+/*Change navigation color*/
+.navbar #mymenu .custom_nav .nav-item a{
+	color: white;
+}
+.navbar #mymenu .custom_nav .nav-item a:hover{
+	color: #f0aab1;
+}
+
+
+/*make header ka image responsive*/
+.back_image{
+	background-size: 100% 100%;
+	background-position: center center;
+	background-repeat: no-repeat;
+	min-height: 70vh;
+	border-radius: 0px;
+}
+.head_p__css{
+font-size: 200%;
+}
+
+.card img{
+width: 100%;
+height: 30%;
+}
+
+form input, form textarea{
+margin-bottom: 2%;
+}
+
+.footer .fab, .fas{
+font-size: 150%;
+}
+#services{
+margin-top: 1%;
+}
+
+</style>
+
+</head>
+
+
+<body>
+<!-- start nav-->
+<nav class="navbar navbar-expand-sm navbar-dark bg-danger fixed-top">
+	<a href="index.html" class="navbar-brand">GeekDev</a>
+	<span class="navbar-text">Learn And Impelement</span>
+	<!--toggle button-->
+	<button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#mymenu">
+		<span class="navbar-toggler-icon"></span>
+	</button>
+	
+	<div class="collapse navbar-collapse" id="mymenu">
+		<ul class="navbar-nav custom_nav">
+			<li class="nav-item"><a href="#home" class="nav-link">Home</a></li>
+			<li class="nav-item"><a href="#services" class="nav-link">Services</a></li>
+			<li class="nav-item"><a href="#course" class="nav-link">Courses</a></li>
+			<li class="nav-item"><a href="#team" class="nav-link">Team</a></li>
+			<li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+		</ul>
+	</div>
+</nav>
+<!-- end nav-->
+
+
+<!-- Start header-->
+<header class="jumbotron back_image" style="background-image: url(img/banner.jpg);" id="home">
+	<div class="text-center main_css" style="margin-top: 120px;">
+		<h1 class="text-danger font-weight-bold text-uppercase">Welcome to geek developers</h1>
+		<p class="font-weight-bold font-italic text-white head_p__css">learn and implement</p>
+		<a href="" class="btn btn-outline-primary">Hire us</a>
+		<a href="" class="btn btn-outline-primary">Join us</a>
+	</div>
+</header>
+<!-- End header-->
+
+
+<!--Start services-->
+	<div class="container text-center border-bottom" id="services">
+	<div class="h2 text-center text-capitalize">Our services</div>
+		<div class="row mt-3">
+			<div class="col-sm-4 mb-4"><a href=""><i class="fab fa-android fa-10x text-success mb-5"></i></a>
+			<h4>Android Application</h4>
+			</div>
+			
+			<div class="col-sm-4 mb-4"><a href=""><i class="fa fa-desktop fa-10x mb-5"></i></a>
+				<h4>Web Application</h4>
+			</div>
+			
+			<div class="col-sm-4 mb-4"><a href=""><i class="fa fa-database fa-10x text-info mb-5"></i></a>
+				<h4>Database</h4>
+			</div>
+		</div>
+	</div>
+<!--End services-->
+
+
+<!--Start courses-->
+<div class="container pt-5" id="course">
+	<h2 class="text-center">Our Courses</h2>
+	<div class="row mt-4 border-bottom text-justify">
+		<div class="col-lg-6">
+		<h3 class="text-center">Learn python</h3>
+			<p>The page you are looking for is currently unavailable. The Web site might be experiencing technical difficulties, or you may need to adjust your browser settings.The page you are looking for is currently unavailable. The Web site might be experiencing technical difficulties, or you may need to adjust your browser settings.The page you are looking for is currently unavailable. The Web site might be experiencing technical difficulties, or you may need to adjust your browser settings.The page you are looking for is currently unavailable. The Web site might be experiencing technical difficulties, or you may need to adjust your browser settings.	</p>
+			<p>The page you are looking for is currently unavailable. The Web site might be experiencing technical difficulties, or you may need to adjust your browser settings.The page you are looking for is currently unavailable. The Web site might be experiencing technical difficulties, or you may need to adjust your browser settings.</p>
+		</div>
+		<div class="col-lg-6  text-center ">
+			<img src="img/green.jpg" class="img-fluid">
+		</div>
+	</div>
+	<div class="row d-flex flex-row-reverse mt-4 text-justify">
+		<div class="col-lg-6">
+		<h3 class="text-center">Learn java</h3>
+			<p>The page you are looking for is currently unavailable. The Web site might be experiencing technical difficulties, or you may need to adjust your browser settings.The page you are looking for is currently unavailable. The Web site might be experiencing technical difficulties, or you may need to adjust your browser settings.The page you are looking for is currently unavailable. The Web site might be experiencing technical difficulties, or you may need to adjust your browser settings.The page you are looking for is currently unavailable. The Web site might be experiencing technical difficulties, or you may need to adjust your browser settings.</p>
+			<p>The page you are looking for is currently unavailable. The Web site might be experiencing technical difficulties, or you may need to adjust your browser settings.The page you are looking for is currently unavailable. The Web site might be experiencing technical difficulties, or you may need to adjust your browser settings.</p>
+		</div>
+		<div class="col-lg-6  text-center ">
+			<img src="img/green.jpg" class="img-fluid ">
+		</div>
+	</div>
+</div>
+<!--End course-->
+
+
+<!--Start Team-->
+<div class="jumbotron bg-danger mt-4" id="team">
+	<div class="container">
+		<h2 class="text-white text-center">Team</h2>
+		<div class="row  text-center mt-4">
+			<div class="col-lg-3 col-sm-6">
+				<div class="card mb-2 shadow-lg">
+					<div class="card-body">
+						<img class="img-card" src="img/1.jpg">
+						<h1 class="card-title">Anil Kumar</h1>
+						<p>The page you are looking for is currently unavailable. The Web site might be experiencing technical difficulties, </p>
+				</div>
+			</div>
+			</div>
+			<div class="col-lg-3 col-sm-6">
+				<div class="card mb-2 shadow-lg">
+					<div class="card-body">
+					<img class="img-card" src="img/2.jpg">
+					<h1 class="card-title">Anil Kumar</h1>
+					<p>The page you are looking for is currently unavailable. The Web site might be experiencing technical difficulties, </p>
+				</div>
+			</div></div>
+			<div class="col-lg-3 col-sm-6">
+				<div class="card  mb-2 shadow-lg ">
+					<div class="card-body">
+						<img class="img-card" src="img/3.jpg">
+						<h1 class="card-title">Anil Kumar</h1>
+						<p>The page you are looking for is currently unavailable. The Web site might be experiencing technical difficulties, </p>
+				</div>
+			</div></div>
+			<div class="col-lg-3 col-sm-6">
+				<div class="card mb-2 shadow-lg">
+					<div class="card-body">
+						<img class="img-card" src="img/4.jpg">
+						<h1 class="card-title">Anil Kumar</h1>
+						<p>The page you are looking for is currently unavailable. The Web site might be experiencing technical difficulties, </p>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!--End Team-->
+
+<!--start contact-->
+<div class="container " id="contact">
+	<h2 class="text-center">Contact Us</h2>
+	<div class="row">
+		<div class="col-lg-8 col-sm-12">
+			<form action="" method="post">
+				<input type="text" placeholder="Enter Your Name" class="form-control" name="name">
+				<input type="tel" placeholder="Enter Your Phone" class="form-control" name="phone">
+				<input type="email" placeholder="Enter Your Email" class="form-control" name="email">
+				<textarea class="form-control" name="text" placeholder="Throw your concern here" cols="10"rows="5"></textarea>
+				<input type="submit" value="Send" class="btn btn-primary d-block" style="width: 100%;">
+			</form>
+		</div>
+		<div class="col-lg-4 col-sm-12 text-center">
+			<strong>Headquater :</strong></br>
+			Anil pvt lmt.</br>
+			Delhi, india</br>
+			100013</br>
+			phone : 000000</br>
+			<a href="">www.anilpvtltd.com</a></br></br>
+
+			<strong>Kolkata branch :</strong></br>
+			Anil pvt lmt.</br>
+			Delhi, india</br>
+			100013</br>
+			phone : 000000</br>
+			<a href="">www.anilpvtltd.com</a>
+		</div>
+	</div>
+</div>
+<!--End contact-->
+
+
+<!--start footer-->
+<footer class="container-fluid bg-dark text-white text-center footer">
+<div class="container">
+	<div class="row">
+		<div class="col-md-6 col-10 pt-2">
+			<span class="font-weight-bold">Follow Us : </span>
+			<a href="" ><i class="fab fa-facebook text-danger px-3"></i></a>
+			<a href="" ><i class="fab fa-twitter text-danger pr-3"></i></a>
+			<a href="" ><i class="fab fa-youtube text-danger pr-3"></i></a>
+			<a href="" ><i class="fab fa-google-plus text-danger pr-3"></i></a>
+			<a href="" ><i class="fas fa-rss text-danger pr-3"></i></a>
+		</div>
+		<div class="col-md-6 col-10 pt-2">
+			<small class="">Designed By : <a href="AnilKumar.com" class="text-danger">Anil Kumar</a>  &copy;  2020 </small>
+		</div>
+	</div>
+</div>
+</footer>
+<!--End footer-->
+
+<script></script>
+</body>
+
+</html>
