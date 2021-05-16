@@ -1,0 +1,31 @@
+
+nothing to commit, working tree clean
+
+HP@LAPTOP-41H8PNV2 MINGW64 /e/Git/geeky.github.io (main)
+$ git staut
+sgit: 'staut' is not a git command. See 'git --help'.
+
+The most similar command is
+        status
+
+HP@LAPTOP-41H8PNV2 MINGW64 /e/Git/geeky.github.io (main)
+$ git status
+On branch main
+Your branch is ahead of 'origin/main' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+
+HP@LAPTOP-41H8PNV2 MINGW64 /e/Git/geeky.github.io (main)
+$ git commit -m "git tutorial 7"
+On branch main
+Your branch is ahead of 'origin/main' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+
+HP@LAPTOP-41H8PNV2 MINGW64 /e/Git/geeky.github.io (main)
+$ touch error.log
+
+HP@LAPTOP-41H8PNV2 MINGW64 /e/Git/geeky.github.io (main)
+$
